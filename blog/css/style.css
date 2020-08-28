@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Calibri';
+}
+
+nav {
+    border-bottom: 2px solid black;
+    margin: 50px 0;
+    padding: 50px 0;
+}
+
+/* body header nav {
+    border-bottom: 2px solid black;
+}
+
+.navbar {
+    border-bottom: 2px solid black;
+} */
+
+/* article h2 {
+    color: red;
+    text-align: center;
+    font-size: 24px;
+} */
+
+.blog--title {
+    color: red;
+    text-align: center;
+    font-size: 24px;
+}

@@ -1,0 +1,14 @@
+form div {
+    margin: 30px 50px;
+}
+
+label {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+form div label {
+    font-weight: bold;
+    color: blue;
+    font-size: 20px;
+}

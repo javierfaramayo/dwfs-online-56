@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(153, 90, 90);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: white;
+    color: rgb(153, 90, 90);
+}
+
+#services {
+    color: red;
+    background-color: white;
+}
+
+#services {
+    color: aqua;
+    background-color: black;
+}
+
+li {
+    background-color: aqua;
+    color: black;
+}
+
+.my-section {
+    border: solid 2px black;
+    padding: 100px 50px;
+    margin: 50px 100px;
+}
+
+.featured {
+    background-color: white;
+    color: black;
+    margin: 0;
+    border: none;
+}
+
+.product--container {
+    width: 300px;
+    border: solid 1px rgb(195, 195, 195);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.product--image {
+    width: 80%;
+}
+
+.product--price {
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.featured h2 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+

@@ -4,50 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
         <h1>Contacto</h1>
+        <label>Escribinos!</label>
     </header>
     <section>
         <form action="./index.js" method="GET">
+            <h2>Los campos marcados con * son obligatorios.</h2>
             <div>
-                <label for="name">Tu nombre</label>
+                <label for="name">Tu nombre *</label>
                 <input id="name" type="text" name="name" required placeholder="Ingresá tu nombre">
             </div>
-            <br>
             <div>
                 <label for="last_name">Tu apellido</label>
                 <input id="last_name" type="text" name="last_name" placeholder="Ingresá tu apellido">
             </div>
-            <br>
             <div>
                 <label for="email">Tu email</label>
                 <input id="email" type="email" name="email" placeholder="Ingresá tu email">
             </div>
-            <br>
             <div>
                 <label for="phone">Tu teléfono</label>
                 <input id="phone" type="number" name="phone" placeholder="Ingresá tu teléfono">
             </div>
-            <br>
             <div>
                 <label for="password">Tu contraseña</label>
                 <input id="password" type="password" name="password" placeholder="Ingresá tu contraseña">
             </div>
-            <br>
             <div>
                 <label for="terms">Acepto los términos y condiciones</label>
                 <input id="terms" type="checkbox" name="terms">
             </div>
-            <br>
             <div>
                 <label for="genero_m">Masculino</label>
                 <input id="genero_m" type="radio" name="genero" value="M">
                 <label for="genero_f">Femenino</label>
                 <input id="genero_f" type="radio" name="genero" value="F">
             </div>
-            <br>
             <div>
                 <label for="country">Pais</label>
                 <select name="country" id="country">
@@ -56,12 +52,10 @@
                     <option value="MX">México</option>
                 </select>
             </div>
-            <br>
             <div>
                 <label for="message">Tu mensaje</label>
                 <textarea name="message" id="message"></textarea>
             </div>
-            <br>
             <input type="submit" value="enviar">
         </form>
     </section>
