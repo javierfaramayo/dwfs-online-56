@@ -1,16 +1,11 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: 'Calibri';
-}
-
-nav {
-    border-bottom: 2px solid black;
-    margin: 50px 0;
-    padding: 50px 0;
+  font-family: "Calibri";
 }
 
 /* body header nav {
@@ -28,7 +23,42 @@ nav {
 } */
 
 .blog--title {
-    color: red;
-    text-align: center;
-    font-size: 24px;
+  color: red;
+  text-align: center;
+  font-size: 24px;
+}
+
+.navbar {
+  height: 90px;
+  width: 100%;
+  padding: 10px 25px;
+  background-color: rgb(53, 62, 192);
+  color: white;
+}
+
+.navbar--brand-img {
+  width: 60px;
+  float: left;
+}
+
+.navbar--brand-name {
+  float: left;
+}
+
+.navbar--menu {
+  float: right;
+  height: 100%;
+  text-align: center;
+}
+
+.navbar--menu-item {
+  list-style: none;
+  display: inline;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.navbar--menu-item:hover {
+  color: rgb(195, 64, 92);
+  border-bottom: 2px solid white;
 }

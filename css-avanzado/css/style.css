@@ -1,0 +1,50 @@
+section {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.image--container {
+  width: 400px;
+  height: 200px;
+  background-position: center center;
+  background-size: cover;
+  float: left;
+}
+
+.dog {
+  background-image: url(../img/dog.jpg);
+}
+
+.facebook {
+  background-image: url(../img/facebook.png);
+}
+
+.button {
+  background-color: red;
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+a {
+  color: black;
+}
+ul li a {
+  color: yellow;
+}
+ul li.item a {
+  color: red;
+}
+ul#menu li.item a {
+  color: blue;
+}
+a {
+  color: green !important;
+}
