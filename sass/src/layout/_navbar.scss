@@ -1,0 +1,38 @@
+.header {
+    background-color: $main-color;
+    color: white;
+    height: $navbar-height;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+    &--brand {
+        width: auto;
+        height: $navbar-height;
+        padding: 15px;
+    }
+
+    &--navbar {
+        float: right;
+
+        &-container {
+            height: $navbar-height;
+            line-height: $navbar-height;
+        }
+
+        &-item {
+            list-style: none;
+            display: inline-block;
+            padding: 0 10px;
+        }
+
+        &-item:hover {
+            background-color: $secondary-color;
+            cursor: pointer;
+        }
+    }
+}
+
+main {
+    margin-top: calc(#{$navbar-height} + 20px);
+}

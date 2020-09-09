@@ -1,0 +1,14 @@
+@import 'shared/reset';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+@import 'shared/variables';
+@import 'layout/navbar';
+@import 'components/seccions';
+
+// Comentario en css
+
+body {
+    background-color: $secondary-color;
+    color: $main-color;
+    font-family: $font-family;
+    font-size: $font-size;
+}
