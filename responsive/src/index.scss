@@ -1,0 +1,17 @@
+@import "resets";
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+section {
+  background-color: gray;
+  font-size: 50px;
+  height: 100vh;
+}
+
+@import "media";

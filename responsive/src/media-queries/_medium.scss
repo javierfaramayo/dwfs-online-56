@@ -1,0 +1,19 @@
+@media screen and (max-width: 800px) {
+  section {
+    display: inline;
+  }
+
+  .caja {
+    background-color: red;
+    float: left;
+    width: 50%;
+  }
+
+  .large {
+    display: block;
+  }
+
+  .resume {
+    display: none;
+  }
+}

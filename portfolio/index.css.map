@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "AMCK,AAAD,cAAQ,CAAC;EACL,gBAAgB,EAAE,GAAG;CACxB",
+    "sources": [
+        "index.scss",
+        "src/sections/_about.scss",
+        "src/sections/_contact.scss",
+        "src/sections/_home.scss",
+        "src/sections/_projects.scss",
+        "src/sections/_technologies.scss",
+        "src/shared/_menu.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}
