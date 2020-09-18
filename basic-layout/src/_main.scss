@@ -1,0 +1,25 @@
+main {
+    display: flex;
+
+    aside {
+        border-right: 1px solid gray;
+        padding: 1em;
+        width: 30%;
+    }
+
+    .blog {
+        width: 70%;
+
+        &--item {
+            align-items: center;
+
+            display: flex;
+            padding: 2em;
+
+            img {
+                height: 100px;
+                margin-right: 1em;
+            }
+        }
+    }
+}

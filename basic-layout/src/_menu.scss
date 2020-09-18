@@ -1,0 +1,35 @@
+.navbar {
+    &--container {
+        background-color: $main-color;
+        color: $secondary-color;
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+    }
+
+    &--brand {
+        height: $navbar-height;
+    }
+
+    &--menu {
+        align-items: center;
+        display: flex;
+        height: 100%;
+
+        li {
+            border: 1px solid $secondary-color;
+            border-radius: 30px;
+            margin: 0 1em;
+            padding: 1em;
+
+            a {
+                color: $secondary-color;
+
+                &:hover {
+                    color: rgb(113, 171, 194);
+                }
+            }
+        }
+    }
+}
+
