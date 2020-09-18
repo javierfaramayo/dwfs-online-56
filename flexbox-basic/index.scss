@@ -1,2 +1,28 @@
 @import './src/variables';
 @import './src/section';
+
+body {
+    background-color: $main-color;
+    color: $secondary-color;
+}
+
+.flex {
+    &--container {
+        align-items: center;
+        display: flex;
+        // flex-direction: row;
+        // flex-wrap: nowrap;
+        flex-flow: row wrap;
+        height: 100vh;
+        justify-content: center;
+        width: 100vw;;
+    }
+
+    &--item {
+        background-color: $secondary-color;
+        color: $main-color;
+        height: 100px;
+        margin: 0 10px;
+        width: 100px;
+    }
+}
