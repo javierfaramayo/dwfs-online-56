@@ -1,0 +1,25 @@
+@import './src/fonts';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.ibm-mono {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.ibm-sans {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.regular {
+    font-weight: 300;
+}
+
+@import './src/grid';
