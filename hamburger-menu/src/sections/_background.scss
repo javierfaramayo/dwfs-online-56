@@ -1,0 +1,8 @@
+.skew--background { 
+    background: #428bca;
+    height: 800px;
+    position: absolute;
+    transform: rotateX(180deg) skew(0deg, 3deg); 
+    width: 100vw;
+    z-index: -1;
+}

@@ -1,0 +1,20 @@
+.episodes {
+    padding: 4em;
+    position: relative;
+
+    &--container {
+        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        padding: 3em;
+    }
+
+    &--card {
+        border: 1px solid white;
+        border-radius: 25px;
+        height: 150px;
+        margin: 1em;
+        width: calc(50% - 2em);
+    }
+}
